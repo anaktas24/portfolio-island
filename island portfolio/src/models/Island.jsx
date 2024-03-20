@@ -10,6 +10,26 @@ const Island = ({isRotating, setIsRotating, ...props}) => {
   const {gl, viewport} = useThree()
   const { nodes, materials } = useGLTF(islandScene);
   const lastX = useRef(0)
+  const rotationSpeed = useRef(0)
+  const dampingFactor = 0.95
+
+  const handlePointerDown = (e) =>{
+    e.stopProgation()
+    e.preventDefault()
+    setIsRotating(true)
+
+     //here was the last thing i did 1:02:21
+  }
+  const handlePointerUp = (e) =>{
+    e.stopProgation()
+    e.preventDefault()
+    setIsRotating(false)
+  }
+  const handlePointerMove = (e) =>{
+    e.stopProgation()
+    e.preventDefault()
+  }
+
   return (
     <a.group ref={islandRef}{...props}>
       <mesh
