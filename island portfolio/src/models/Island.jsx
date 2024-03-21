@@ -18,12 +18,18 @@ const Island = ({isRotating, setIsRotating, ...props}) => {
     e.preventDefault()
     setIsRotating(true)
 
-     //here was the last thing i did 1:02:21
+     const clientX = e.touches ? e.touches[0].clientX : e.clientX
+     lastX.current =  clientX
   }
   const handlePointerUp = (e) =>{
     e.stopProgation()
     e.preventDefault()
     setIsRotating(false)
+
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX
+    const delta = (clientX -lastX.current) / viewport.width
+    islandRef.current.rotation.y += delta * 0.01 * Math.PI
+    lastX.current = clientXrotationSpeed.current = delta * 0.01* Math.PI
   }
   const handlePointerMove = (e) =>{
     e.stopProgation()
