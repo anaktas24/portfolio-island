@@ -34,7 +34,42 @@ const Island = ({isRotating, setIsRotating, ...props}) => {
   const handlePointerMove = (e) =>{
     e.stopProgation()
     e.preventDefault()
+
+    if(isRotating){
+      handlePointerUp(e)
+    }
   }
+  const handleKeyDown = (e) =>{
+    if(e.key === 'ArrowRight'){
+      if(!isRotating) setIsRotating(true)
+        islandRef.current.rotation.y += 0.1 * Math.PI
+      }else if(e.key === 'ArrowLeft'){
+        if(!isRotating) setIsRotating(true)
+          islandRef.current.rotation.y -= 0.1 * Math.PI
+      }
+  }
+  const handleKeyUp = (e) =>{
+    if(e.key === 'ArrowLeft' || e.key === 'ArrowRight'){
+        setIsRotating(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('pointerdown', handlePointerDown)
+    document.addEventListener('pointerup', handlePointerUp)
+    document.addEventListener('pointermove', handlePointerMove)
+    document.addEventListener('keydown', handleKeyDown)
+    document.addEventListener('keyup', handleKeyUp)
+
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown)
+      document.removeEventListener('pointerup', handlePointerUp)
+      document.removeEventListener('pointermove', handlePointerMove)
+      document.removeEventListener('keydown', handleKeyDown)
+      document.removeEventListener('keyup', handleKeyUp)
+    }
+  }, [gl, handlePointerDown, handlePointerMove, handlePointerUp])
+
 
   return (
     <a.group ref={islandRef}{...props}>
