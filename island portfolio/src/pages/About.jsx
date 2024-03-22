@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Ioannis
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Junior Web Developer based in Zurich with a passion for building web applications.
+          I specialize in front-end development but I'm also comfortable working on the back-end.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
+            I've worked with a startup company, leveling up my skills and
             teaming up with smart people. Here's the rundown:
           </p>
         </div>
