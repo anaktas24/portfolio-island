@@ -2,10 +2,10 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import { Fox } from "../assets/3d/fox.glb";
+import Fox  from "../assets/3d/fox.glb";
 import useAlert from "../hooks/useAlert";
-import { Alert, Loader } from "../components";
-
+import Alert from "../components/Alert";
+import Loader  from "../components/Loader";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
