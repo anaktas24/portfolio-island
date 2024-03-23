@@ -1,5 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, lama, tesla } from "../assets/images";
 import {
+  contact,
     clipstudio,
     threejs,
     vite,
@@ -28,6 +29,7 @@ export const skills = [
     name: "HTML",
     type: "Frontend",
   },
+
   {
     imageUrl: css,
     name: "CSS",
@@ -119,16 +121,14 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Junior Full Stack Developer",
+    company_name: "KarmaLama",
+    icon: lama,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - August 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing the structure of the web application using Ruby on Rails.",
+
         ],
     },
     {
