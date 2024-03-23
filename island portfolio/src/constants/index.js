@@ -1,15 +1,17 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     contact,
+    blender,
+    ruby,
     css,
     git,
     github,
     html,
     javascript,
     linkedin,
-    arrow,
     nodejs,
     react,
+    rails,
     redux,
     sass,
     tailwindcss,
@@ -17,6 +19,21 @@ import {
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: blender,
+        name: "Blender",
+        type: "3D Modeling",
+    },
+    {
+        imageUrl: ruby,
+        name: "Ruby",
+        type: "Backend",
+    },
+    {
+        imageUrl: rails,
+        name: "Rails",
+        type: "Backend",
+    },
     {
         imageUrl: css,
         name: "CSS",

@@ -1,5 +1,7 @@
 import css from './css.svg'
-import arrow from './arrow.svg'
+import blender from './blender.svg'
+import rails from './rails.svg'
+import ruby from './ruby.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
@@ -15,8 +17,10 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
 export {
-  arrow,
+    ruby,
+    blender,
     css,
+    rails,
     git,
     github,
     html,
