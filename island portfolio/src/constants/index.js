@@ -1,6 +1,9 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    contact,
+    clipstudio,
+    threejs,
+    vite,
+    postgre,
     blender,
     ruby,
     css,
@@ -14,87 +17,113 @@ import {
     rails,
     redux,
     sass,
+    unity,
     tailwindcss,
 
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: blender,
-        name: "Blender",
-        type: "3D Modeling",
-    },
-    {
-        imageUrl: ruby,
-        name: "Ruby",
-        type: "Backend",
-    },
-    {
-        imageUrl: rails,
-        name: "Rails",
-        type: "Backend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: threejs,
+    name: "Three.js",
+    type: "Frontend",
+  },
 
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: vite,
+    name: "Vite",
+    type: "Frontend",
+  },
+  {
+    imageUrl: ruby,
+    name: "Ruby",
+    type: "Backend",
+  },
+  {
+    imageUrl: rails,
+    name: "Rails",
+    type: "Backend",
+  },
+  {
+    imageUrl: postgre,
+    name: "PostgreSQL",
+    type: "Backend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
 
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: blender,
+    name: "Blender",
+    type: "3D Modeling",
+  },
+  {
+    imageUrl: clipstudio,
+    name: "Clip Studio Paint",
+    type: "Design",
+  },
+  {
+    imageUrl: unity,
+    name: "Unity",
+    type: "Game Development",
+  },
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+  {
+    title: "React.js Developer",
+    company_name: "Starbucks",
+    icon: starbucks,
+    iconBg: "#accbe1",
+    date: "March 2020 - April 2021",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

@@ -1,4 +1,8 @@
 import css from './css.svg'
+import clipstudio from './clipstudio.svg'
+import vite from './vite.svg'
+import unity from './unity.svg'
+import postgre from './postgre.svg'
 import blender from './blender.svg'
 import rails from './rails.svg'
 import ruby from './ruby.svg'
@@ -15,13 +19,19 @@ import linkedin from './linkedin.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import threejs from './threejs.svg'
 
 export {
+    threejs,
+    vite,
+    unity,
+    postgre,
     ruby,
     blender,
     css,
     rails,
     git,
+    clipstudio,
     github,
     html,
     javascript,
