@@ -2,7 +2,6 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import Fox  from "../assets/3d/fox.glb";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
 import Loader  from "../components/Loader";
@@ -156,15 +155,6 @@ const Contact = () => {
             penumbra={1}
             intensity={2}
           />
-
-          <Suspense fallback={<Loader />}>
-            <Fox
-              currentAnimation={currentAnimation}
-              position={[0.5, 0.35, 0]}
-              rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
-            />
-          </Suspense>
         </Canvas>
       </div>
     </section>

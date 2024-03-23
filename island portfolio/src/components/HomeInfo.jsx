@@ -21,7 +21,6 @@ const HomeInfo = ({ currentStage }) => {
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
           Learn more
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
     );
@@ -36,7 +35,6 @@ const HomeInfo = ({ currentStage }) => {
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
           Visit my portfolio
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
     );
@@ -51,7 +49,6 @@ const HomeInfo = ({ currentStage }) => {
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
         Let's talk
-        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
     );
