@@ -1,4 +1,4 @@
-import {lama, lewagon, mango,godot } from "../assets/images";
+import {lama, lewagon, mango,godot, RoR } from "../assets/images";
 import {
     contact,
     clipstudio,
@@ -183,10 +183,17 @@ export const projects = [
       link:'https://github.com/anaktas24/Godot-3D'
     } ,
     {
-      iconUrl: godot,
-      theme: 'btn-back-red',
+      iconUrl: react,
+      theme: 'btn-back-black',
       name: 'React on Rails',
       description: "This project is a simple CRUD (Create, Read, Update, Delete) application that combines a Ruby on Rails API backend with a React frontend.",
       link:'https://github.com/anaktas24/ReactOnRails'
+    } ,
+    {
+      iconUrl: threejs,
+      theme: 'btn-back-blue',
+      name: '3D Portfolio',
+      description: "Im planning to create a 3D portfolio implementing my modeling hobby inside a website and make something creative. (In progress)",
+      link: "https://github.com/anaktas24/Portfolio"
     } ,
 ];
