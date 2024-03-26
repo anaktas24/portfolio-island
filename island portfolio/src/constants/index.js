@@ -1,6 +1,6 @@
-import { meta, shopify, lama, tesla } from "../assets/images";
+import {lama, lewagon } from "../assets/images";
 import {
-  contact,
+    contact,
     clipstudio,
     threejs,
     vite,
@@ -127,47 +127,23 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "May 2023 - August 2023",
         points: [
-            "Developing the structure of the web application using Ruby on Rails.",
+            "Contributed to developing the project plan and schedule for the web application.",
+            "Outlined the MVP for the startup.",
+            "Aided in setting up the basic structure of the web application using Ruby on Rails."
 
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Web Developer Bootcamp",
+        company_name: "Le Wagon",
+        icon: lewagon,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Oct 2022 - Dec 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learned the fundamentals of software development and programming: writing clean and efficient code with object-oriented programming, building MVC software from scratch, and mastering relational databases and SQL.",
+            "Mastered front-end development and web design: developed responsive websites with HTML and CSS, designed user interfaces with Bootstrap and Figma, and built interactive web applications using JavaScript.",
+            "Deployed fully-functional apps from scratch: designed and built complete web applications working as a team, deployed online using Heroku and a real domain, worked as a team to develop the application.",
+            "Adopted best-in-class development workflow: understanding the importance of version control with Git and GitHub, and learned how to collaborate with other developers using GitHub, Slack, and Trello.",
         ],
     },
 ];
@@ -192,11 +168,11 @@ export const socialLinks = [
 
 export const projects = [
 
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
+    {
+
+        theme: 'btn-back-yellow',
+        name: 'Migrating Mango Server',
+        description: 'App for migrating into another country. It helps start a new life in a new country.',
+        link: 'https://github.com/anaktas24/Migrating-Mango-Server-v2',
+    }
 ];

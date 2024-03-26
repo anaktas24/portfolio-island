@@ -15,11 +15,10 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        I've embarked on numerous projects parallel to my full time job, but these are
+        the ones I hold closest to my heart. I've worked on these projects with a lot of passion and dedication.
+        When I'm not working, I'm either learning new technologies or work on my personal projects.
+
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -50,11 +49,7 @@ const Projects = () => {
                 >
                   Live Link
                 </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+
               </div>
             </div>
           </div>
