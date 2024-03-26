@@ -1,4 +1,4 @@
-import {lama, lewagon } from "../assets/images";
+import {lama, lewagon, mango,godot } from "../assets/images";
 import {
     contact,
     clipstudio,
@@ -169,10 +169,24 @@ export const socialLinks = [
 export const projects = [
 
     {
-
+        iconUrl: mango,
         theme: 'btn-back-yellow',
-        name: 'Migrating Mango Server',
-        description: 'App for migrating into another country. It helps start a new life in a new country.',
-        link: 'https://github.com/anaktas24/Migrating-Mango-Server-v2',
-    }
+        name: 'Migrating Mango',
+        description:  "Comprehensive app designed to facilitate the relocation process to a new country, offering guidance and resources to seamlessly start a new chapter and adapt to life abroad.",
+        link:'https://github.com/anaktas24/Migrating-Mango-v2-client'
+    } ,
+    {
+      iconUrl: godot,
+      theme: 'btn-back-red',
+      name: 'Godot Game',
+      description: "A simple 3D game developed using Godot Engine and Blender. The game is a third-person platformer where the player has to collect coins and escape to win. (In progress)",
+      link:'https://github.com/anaktas24/Godot-3D'
+    } ,
+    {
+      iconUrl: godot,
+      theme: 'btn-back-red',
+      name: 'React on Rails',
+      description: "This project is a simple CRUD (Create, Read, Update, Delete) application that combines a Ruby on Rails API backend with a React frontend.",
+      link:'https://github.com/anaktas24/ReactOnRails'
+    } ,
 ];
